@@ -1,0 +1,106 @@
+:root {
+  --primary: #4361ee;
+  --secondary: #3a0ca3;
+  --accent1: #f72585;
+  --accent2: #4cc9f0;
+  --accent3: #7209b7;
+  --light: #f8f9fa;
+  --dark: #212529;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background-color: #f0f2f5;
+  color: var(--dark);
+}
+
+.header-gradient {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  border-radius: 16px;
+}
+
+.card-section {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.12);
+}
+
+.icon-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+}
+
+.profile {
+  background-color: rgba(67, 97, 238, 0.15);
+  color: var(--primary);
+}
+.methodology {
+  background-color: rgba(247, 37, 133, 0.15);
+  color: var(--accent1);
+}
+.content {
+  background-color: rgba(76, 201, 240, 0.15);
+  color: var(--accent2);
+}
+.activities {
+  background-color: rgba(114, 9, 183, 0.15);
+  color: var(--accent3);
+}
+.evaluation {
+  background-color: rgba(58, 12, 163, 0.15);
+  color: var(--secondary);
+}
+.relations {
+  background-color: rgba(67, 97, 238, 0.15);
+  color: var(--primary);
+}
+.keys {
+  background-color: rgba(247, 37, 133, 0.15);
+  color: var(--accent1);
+}
+
+.tag {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.8rem;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  margin: 0.2rem;
+}
+
+.conclusion {
+  background: linear-gradient(135deg, #2a2d42, #1a1c2d);
+  color: white;
+  border-radius: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+
+.table-custom {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.table-custom thead {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  color: white;
+}
